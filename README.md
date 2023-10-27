@@ -1,4 +1,4 @@
-# dbRatatuille
+# dbRatatouille
 
 ## Задание
 
