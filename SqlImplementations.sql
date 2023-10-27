@@ -16,7 +16,7 @@ CREATE TABLE Categories (
 );
 
 --Создание таблицы связей продукты категории
-CREATE TABLE ProductCategories (
+CREATE TABLE DishesCategories (
     Id INT PRIMARY KEY IDENTITY(1,1),
     DishId INT,
     CategoryId INT,
@@ -55,8 +55,8 @@ VALUES
     (4, 4);
 
 -- Выборка имени продукта и имени категории
-SELECT P.Name AS DishName, C.Name AS CategoryName
+SELECT P.Name AS DishName, STRING_AGG(C.Name, ', ') AS CategoryNames
 FROM Dishes AS P
 LEFT JOIN DishesCategories AS PC ON P.Id = PC.DishId
 LEFT JOIN Categories AS C ON PC.CategoryId = C.Id
-ORDER BY ProductName;
+GROUP BY P.Name;
