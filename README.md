@@ -8,6 +8,10 @@
 всех пар «Имя продукта – Имя категории». Если у продукта нет категорий, 
 то его имя все равно должно выводиться.
 
+## Вывод
+
+### Пример ввывода SQL запроса
+
 <p align="center">
   <img src="https://github.com/KimIlia91/SqlImplementation/blob/master/Image.png" alt="Image">
 </p>
