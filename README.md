@@ -11,5 +11,5 @@
 ![Ссылка](https://github.com/KimIlia91/SqlImplementation/blob/master/Image.png)
 
 <p align="center">
-  <img src="[URL_изображения](https://github.com/KimIlia91/SqlImplementation/blob/master/Image.png)https://github.com/KimIlia91/SqlImplementation/blob/master/Image.png" alt="Image">
+  <img src="(https://github.com/KimIlia91/SqlImplementation/blob/master/Image.png)https://github.com/KimIlia91/SqlImplementation/blob/master/Image.png" alt="Image">
 </p>
