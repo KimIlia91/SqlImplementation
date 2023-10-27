@@ -8,4 +8,4 @@
 всех пар «Имя продукта – Имя категории». Если у продукта нет категорий, 
 то его имя все равно должно выводиться.
 
-[Ссылка](https://github.com/KimIlia91/SqlImplementation/blob/master/Image.png)
+![Ссылка](https://github.com/KimIlia91/SqlImplementation/blob/master/Image.png)
