@@ -58,5 +58,5 @@ VALUES
 SELECT D.Name AS DishName, STRING_AGG(C.Name, ', ') AS CategoryNames
 FROM Dishes AS D
 LEFT JOIN DishesCategories AS DC ON D.Id = DC.DishId
-LEFT JOIN Categories AS C ON DC.CategoryId = D.Id
+LEFT JOIN Categories AS C ON DC.CategoryId = C.Id
 GROUP BY D.Name;
