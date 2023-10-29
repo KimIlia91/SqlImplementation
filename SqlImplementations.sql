@@ -55,8 +55,8 @@ VALUES
     (4, 4);
 
 -- Выборка имени продукта и имени категории
-SELECT P.Name AS DishName, STRING_AGG(C.Name, ', ') AS CategoryNames
-FROM Dishes AS P
-LEFT JOIN DishesCategories AS PC ON P.Id = PC.DishId
-LEFT JOIN Categories AS C ON PC.CategoryId = C.Id
-GROUP BY P.Name;
+SELECT D.Name AS DishName, STRING_AGG(C.Name, ', ') AS CategoryNames
+FROM Dishes AS D
+LEFT JOIN DishesCategories AS DC ON D.Id = DC.DishId
+LEFT JOIN Categories AS C ON DC.CategoryId = D.Id
+GROUP BY D.Name;
