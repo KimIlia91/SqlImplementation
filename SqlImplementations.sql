@@ -5,7 +5,7 @@ USE dbRatatouille;
 
 --Создание таблицы продукты
 CREATE TABLE Dishes (
-	Id INT PRIMARY KEY IDENTITY(1,1),
+    Id INT PRIMARY KEY IDENTITY(1,1),
     Name varchar(255) NOT NULL
 );
 
