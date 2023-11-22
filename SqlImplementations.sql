@@ -17,9 +17,9 @@ CREATE TABLE Categories (
 
 --Создание таблицы связей продукты категории
 CREATE TABLE DishesCategories (
-    Id INT PRIMARY KEY IDENTITY(1,1),
     DishId INT,
     CategoryId INT,
+    PRIMARY KEY (DishId, CategoryId),
     FOREIGN KEY (DishId) REFERENCES Dishes(Id),
     FOREIGN KEY (CategoryId) REFERENCES Categories(Id)
 );
